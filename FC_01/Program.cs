@@ -87,7 +87,20 @@ namespace FC_01
 
                     Console.Write(strResult);
                     Console.WriteLine(strNum);
-                    break;
+
+                    Console.Write("다시 하시려면 0을 입력하세요 : ");
+
+                    if (Console.ReadLine() == "0")
+                    {
+                        runA = 0;
+                        runB = 0;
+                        runC = 0;
+                        runD = 0;
+                    }
+                    else
+                    {
+                        break;
+                    }                  
                 }
             }
         }
